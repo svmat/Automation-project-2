@@ -1,5 +1,4 @@
 from selenium import webdriver
-
 driver = webdriver.Firefox(executable_path=r'C:\Users\elena\Downloads\geckodriver-v0.27.0-win64\geckodriver.exe')
 driver.get("https://www.datafolks.com")
 
